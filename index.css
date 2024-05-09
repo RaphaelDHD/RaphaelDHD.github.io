@@ -111,7 +111,7 @@ header table {
     text-decoration: none;
     padding: 5px 10px;
     border-bottom: 2px solid transparent;
-    /* margin-left: 4vw; */
+    margin-left: 4vw;
     transition: 0.4s ease-in-out;
     margin-right: 5%;
 }
@@ -499,7 +499,7 @@ button:focus {
 
     header {
         width: 96vw;
-        background: #fff;
+        background: transparent;
         padding: 4vh 2vw;
         position: absolute;
     }
@@ -510,8 +510,7 @@ button:focus {
         text-align: center;
         padding: 15px 0px;
     }
-
-    #navigation a {
-        color: #000;
+    header a {
+        display: none;
     }
 }
